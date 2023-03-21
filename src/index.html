@@ -7,14 +7,14 @@
     <link href="/public/styles.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
-    <div >
-      <div class="bg-blue-200 w-screen h-screen grid grid-cols-2" >
-        <div class="grid grid-rows-4">
-            <nav class="flex p-4">
+<body class="bg-sky-300" >
+    <div class="grid grid-cols-3" >
+      
+        <div class="grid grid-rows-6 col-span-2">
+            <nav class="flex p-5">
                 <div  class="pl-4 pr-10">
                     <h1>
-                        <a href="/" class="text-xl">
+                        <a href="/" >
                             FoodOnBoat
                         </a>
                     </h1>
@@ -43,41 +43,221 @@
                     </li>
                 </ul>
             </nav>
-            <div>
-                <header class="flex justify-center gap-1" >
-                    <h1>Cusines</h1>
-                    <h4>For Boat Lovers</h4>
-                </header>
-            </div>
-            <div class="grid grid-rows-3">
-                <h4 class="flex justify-center">
-                    Latest on Boat
-                </h4>
-                <div>
-                    <!...cards go here>
-                    <div>
-                        <img src="./img/Donate/Donate.jpg" alt="" class="w-8 h-8">
-                        <div>
-                            <span>
-                                Chai
-                            </span>
-                            <span>
-                                Recipe by Modi Ji
-                            </span>
+            <div class="row-span-5">
+                <div class="grid grid-rows-4">
+                    <div >
+                        <header class="flex justify-center gap-1" >
+                            <h1>Cusines</h1>
+                            <h4>For Boat Lovers</h4>
+                        </header>
+                        <div class="flex justify-center gap-8">
+                            <!...cards go here>
+                            <div class="bg-blue-200 rounded-lg overflow-hidden shadow-lg">
+                                <!...cards go here>
+                                <div class="grid justify-items-center">
+                                    <img src="./img/food/ChickenBiryani.jpg" alt="" class="w-36 h-32 opacity-60 hover:opacity-100">
+                                    <div class="grid justify-items-center pb-3">
+                                        <span class="p-1">
+                                            Chicken Biryani
+                                        </span>
+                                        <img src="./img/Icons/chef.png " class="w-4 h-4">
+                                        <!span class="block">
+                                             <!Sanjeev kapoor>
+                                        <!/span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-blue-200 rounded-lg overflow-hidden shadow-lg">
+                                <!...cards go here>
+                                <div class="grid justify-items-center">
+                                    <img src="./img/food/CoupleMeal.jpg" alt="" class="w-36 h-32 opacity-60 hover:opacity-100">
+                                    <div class="grid justify-items-center pb-3">
+                                        <span class="p-1">
+                                            Couple Meal
+                                        </span>
+                                        <img src="./img/Icons/chef.png " class="w-4 h-4">
+                                        <!span class="block">
+                                             <!Vikas Khanna>
+                                        <!/span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-blue-200 rounded-lg overflow-hidden shadow-lg">
+                                <!...cards go here>
+                                <div class="grid justify-items-center">
+                                    <img src="./img/food/Burger.jpg" alt="" class="w-36 h-32 opacity-60 hover:opacity-100">
+                                    <div class="grid justify-items-center pb-3">
+                                        <span class="p-1">
+                                            Burger
+                                        </span>
+                                        <img src="./img/Icons/chef.png " class="w-4 h-4">
+                                        <!span class="block">
+                                             <!Anjum Anand>
+                                        <!/span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-blue-200 rounded-lg overflow-hidden shadow-lg">
+                                <!...cards go here>
+                                <div class="grid justify-items-center">
+                                    <img src="./img/food/KhadaiPaneer.jpg" alt="" class="w-36 h-32 opacity-60 hover:opacity-100">
+                                    <div class="grid justify-items-center pb-3">
+                                        <span class="p-1">
+                                            Khadai Paneer
+                                        </span>
+                                        <img src="./img/Icons/chef.png " class="w-4 h-4">
+                                        <!span class="block">
+                                            <!Ranveer Brar>
+                                        <!/span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <h4 class="flex justify-center">
-                    Most Popular on Boat
-                </h4>
-                <div>
-                    <!...card go here>
-                </div>
-                <div>
-                    <div>
+                    <div >
                         <h4 class="flex justify-center">
-                            Load More
+                            Latest on Boat
                         </h4>
+                        <div class="flex justify-center gap-8">
+                            <!...cards go here>
+                            <div class="bg-blue-200 rounded-lg overflow-hidden shadow-lg">
+                                <!...cards go here>
+                                <div class="grid justify-items-center">
+                                    <img src="./img/latest/cupcake.jpg" alt="" class="w-36 h-32 opacity-60 hover:opacity-100">
+                                    <div class="grid justify-items-center pb-3">
+                                        <span class="p-1">
+                                            cupcake
+                                        </span>
+                                        <img src="./img/Icons/chef.png " class="w-4 h-4">
+                                        <!span class="block ">
+                                            <!Vikas Khanna>
+                                        <!/span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-blue-200 rounded-lg overflow-hidden shadow-lg">
+                                <!...cards go here>
+                                <div class="grid justify-items-center">
+                                    <img src="./img/latest/strawberry shake.jpg" alt="" class="w-36 h-32 opacity-60 hover:opacity-100">
+                                    <div class="grid justify-items-center pb-3">
+                                        <span class="p-1">
+                                            strawberryshake
+                                        </span>
+                                        <img src="./img/Icons/chef.png " class="w-4 h-4">
+                                        <!span class="block">
+                                             <!Anjum Anand>
+                                        <!/span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-blue-200 rounded-lg overflow-hidden shadow-lg">
+                                <!...cards go here>
+                                <div class="grid justify-items-center">
+                                    <img src="./img/latest/StrawberryJoy.jpg" alt="" class="w-36 h-32 opacity-60 hover:opacity-100">
+                                    <div class="grid justify-items-center pb-3">
+                                        <span class="p-1">
+                                            StrawberryJoy
+                                        </span>
+                                        <img src="./img/Icons/chef.png " class="w-4 h-4">
+                                        <!span class="block">
+                                            <! Ranveer Brar>
+                                        <!/span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-blue-200 rounded-lg overflow-hidden shadow-lg">
+                                <!...cards go here>
+                                <div class="grid justify-items-center">
+                                    <img src="./img/latest/EggTale.jpg" alt="" class="w-36 h-32 opacity-60 hover:opacity-100">
+                                    <div class="grid justify-items-center pb-3">
+                                        <span class="p-1">
+                                            EggTale
+                                        </span>
+                                        <img src="./img/Icons/chef.png " class="w-4 h-4">
+                                        <!span class="block">
+                                            <! Anjum Anand>
+                                        <!/span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div >   
+                        <h4 class="flex justify-center">
+                            Most Popular on Boat
+                        </h4>
+                        <div class="flex justify-center gap-8">
+                            <!...card go here>
+                            <div class="bg-blue-200 rounded-lg overflow-hidden shadow-lg">
+                                <!...cards go here>
+                                <div class="grid justify-items-center">
+                                    <img src="./img/popular/Samosa.jpg" alt="" class="w-36 h-32 opacity-60 hover:opacity-100">
+                                    <div class="grid justify-items-center pb-3">
+                                        <span class="p-1">
+                                            Samosa
+                                        </span>
+                                        <img src="./img/Icons/chef.png " class="w-4 h-4">
+                                        <!span class="block">
+                                             <!Sanjeev kapoor>
+                                        <!/span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-blue-200 rounded-lg overflow-hidden shadow-lg">
+                                <!...cards go here>
+                                <div class="grid justify-items-center">
+                                    <img src="./img/popular/CoconutWater.jpg" alt="" class="w-36 h-32 opacity-60 hover:opacity-100">
+                                    <div class="grid justify-items-center pb-3">
+                                        <span class="p-1">
+                                            CoconutWater
+                                        </span>
+                                        <img src="./img/Icons/chef.png " class="w-4 h-4">
+                                        <!span class="block">
+                                             <!Boaters>
+                                        <!/span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-blue-200 rounded-lg overflow-hidden shadow-lg">
+                                <!...cards go here>
+                                <div class="grid justify-items-center">
+                                    <img src="./img/popular/ChickenWings.jpg" alt="" class="w-36 h-32 opacity-60 hover:opacity-100">
+                                    <div class="grid justify-items-center pb-3">
+                                        <span class="p-1">
+                                            ChickenWings
+                                        </span>
+                                        <img src="./img/Icons/chef.png " class="w-4 h-4">
+                                        <!span class="block">
+                                           <! Vikas Khanna>
+                                        <!/span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-blue-200 rounded-lg overflow-hidden shadow-lg">
+                                <!...cards go here>
+                                <div class="grid justify-items-center">
+                                    <img src="./img/popular/WatermelonJuice.jpg" alt="" class="w-36 h-32 opacity-60 hover:opacity-100">
+                                    <div class="grid justify-items-center pb-3">
+                                        <span class="p-1">
+                                            WatermelonJuice
+                                        </span>
+                                        <img src="./img/Icons/chef.png " class="w-4 h-4">
+                                        <!span class="block">
+                                           <! Boaters>
+                                        <!/span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                    <div>    
+                        <div>
+                            <div>
+                                <h4 class="flex justify-center">
+                                    Load More
+                                </h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -93,6 +273,6 @@
             </div>
         </main>
     </div>
-</div>
+
 </body>
 </html>
